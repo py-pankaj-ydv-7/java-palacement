@@ -28,29 +28,30 @@ public class function {
 //     return product;
 // }
 
-public static int factorial(int n){
+// public static int factorial(int n){
    
-    int factorial=1;
-    int i=1;
-    while(i<=n){
-        factorial=factorial*i;
-        i++;
-    }
-    return factorial;
+//     int factorial=1;
+//     int i=1;
+//     while(i<=n){
+//         factorial=factorial*i;
+//         i++;
+//     }
+//     return factorial;
 
-}
+// }
 
-public static int BinoCoeff(int n , int r){
-    int n_fact=factorial(n);
-    int r_fact=factorial(r);
-    int nmr_fact=factorial(n-r);
-    int BinoCoeff=n_fact/(r_fact*nmr_fact);
-    return BinoCoeff;
+// public static int BinoCoeff(int n , int r){
+//     int n_fact=factorial(n);
+//     int r_fact=factorial(r);
+//     int nmr_fact=factorial(n-r);
+//     int BinoCoeff=n_fact/(r_fact*nmr_fact);
+//     return BinoCoeff;
 
-}
+// }
+
     
-    public static void main(String args[]){
-          Scanner sc = new Scanner(System.in);
+    // public static void main(String args[]){
+    //       Scanner sc = new Scanner(System.in);
        // printhelloworld();
     //     int a =sc.nextInt();
     //    int b =sc.nextInt();
@@ -78,9 +79,27 @@ public static int BinoCoeff(int n , int r){
 //   int r=2;
 //   System.out.println("ncr "+BinoCoeff(n, r));
 
+///**********************************************functions by kunal . k **************/
+public static int sum(int a, int b){
+    return a+b;
+}
 
-
+// greeting function 
+public static String greeting(){
+    return "hello pankaj";
+}
+ public static void main(String args[]){
+          Scanner sc = new Scanner(System.in);
     
+////take input of 2 numbers and print the sum 
+// int a =sc.nextInt();
+// int b = sc.nextInt();
+// // int sum =a+b;
+// sum(a, b);
+// System.out.println("sum "+sum(a,b));
+System.out.println(greeting());
+
+// 14:38 leaving timming
 
     }
     
