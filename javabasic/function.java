@@ -49,9 +49,79 @@ public class function {
 
 // }
 
+// prime or not 
+
+// public static boolean isprime(int n){
+//    boolean isprime =true;
+//    for(int i=2;i<n-1;i++){
+//     if(n%i==0){
+//         isprime=false;
+//     }
+//    }
+//    return isprime;
+// }
+
+  //primes in range 2 se 10
+//   public static void printRange (int n){
+//     for(int i=2;i<=n;i++){
+//         boolean isprime=i;
+   
+//   }
+//   public static void primeRange(int n){
     
-    // public static void main(String args[]){
-    //       Scanner sc = new Scanner(System.in);
+//     for (int i=2;i<=n;i++){                         // abhi gad bad hai isme
+//         if(isprime(i)){
+//             System.out.println(i+" ");
+//         }
+        
+//     }
+    
+//     System.out.println();
+//   }
+
+    // binary to decimal  **************************************************
+
+    // public static void btd(int binNum){
+    //     int pow = 0;
+    //     int decNum= 0;
+
+    //     while(binNum>0){
+    //         int lastdigit =binNum%10;
+    //         decNum = decNum+(lastdigit*(int)Math.pow(2,pow));
+    //         pow++;
+
+    //         binNum=binNum/10;
+
+    //     }
+    //     System.out.println("decimal of " +binNum+" = "+decNum);
+    // }
+   
+
+
+    //*********************************** decimal to binary *****************************************/
+
+    // public static void dectobin(int n){
+    //     int pow = 0;
+    //     int myNUM=n;
+    //     int binNum = 0;
+
+    //     while(n>0){
+    //         int rem = n%2;
+    //         binNum = binNum+(rem*(int)Math.pow(10,pow));
+    //         pow++;
+    //         n=n/2;
+    //     }
+    //     System.out.println(" binary form of "+ myNUM+" = "+binNum);
+    // }
+
+
+    public static void main(String args[]){
+          Scanner sc = new Scanner(System.in);
+          System.out.println("enter a number ");
+          int dectobin=sc.nextInt();
+        //   dectobin(dectobin);
+// int binnum=sc.nextInt();
+//  btd(binnum);
        // printhelloworld();
     //     int a =sc.nextInt();
     //    int b =sc.nextInt();
@@ -78,28 +148,7 @@ public class function {
 //   int n=5;
 //   int r=2;
 //   System.out.println("ncr "+BinoCoeff(n, r));
-
-///**********************************************functions by kunal . k **************/
-public static int sum(int a, int b){
-    return a+b;
-}
-
-// greeting function 
-public static String greeting(){
-    return "hello pankaj";
-}
- public static void main(String args[]){
-          Scanner sc = new Scanner(System.in);
-    
-////take input of 2 numbers and print the sum 
-// int a =sc.nextInt();
-// int b = sc.nextInt();
-// // int sum =a+b;
-// sum(a, b);
-// System.out.println("sum "+sum(a,b));
-System.out.println(greeting());
-
-// 14:38 leaving timming
+// System.out.println(isprime(4));
 
     }
     
