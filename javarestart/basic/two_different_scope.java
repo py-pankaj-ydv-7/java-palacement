@@ -14,5 +14,10 @@ public class two_different_scope {
 //             double fsal=33.33;// Error
 //             long num=30;//No Error            
 //    }
+
+
+
+                   
+
 }
 }
